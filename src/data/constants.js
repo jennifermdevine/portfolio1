@@ -126,7 +126,7 @@ export const Bio = {
       role: "Veterinary Assistant",
       company: "Bonanza Cat Hospital",
       date: "November 2006 - Oct 2022",
-      desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+      desc: "Managed training for new technicians and volunteers, handled receptionist duties such as cash transactions and scheduling, and emphasized client education and relationship building. Created and maintained a compliance handbook to ensure staff adherence to procedures and anticipated the needs of doctors, patients, and clients to maintain high standards of care and satisfaction. Additionally, served as system administrator for the CRM Cornerstone software system, leveraging technological knowledge to train and support team members effectively.",
       skills: [
         "ReactJS",
         "Redux",
@@ -169,17 +169,6 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 0,
-      title: "Groomies",
-      date: "Oct 2023 - Nov 2023",
-      description:
-        "A team of five create an appointment setting, editing, and removing application for pet owners for a fictional grooming establishment called Groomies. Pets can be added, edited, and removed.",
-      image:
-        "",
-      github: "https://github.com/jennifermdevine/Groomies",
-      webapp: "https://groomies-v1.netlify.app/",
-    },
-    {
       id: 1,
       title: "Lake Elwood",
       date: "Jun 2023 - Jul 2023",
@@ -191,6 +180,17 @@ export const Bio = {
       webapp: "",
     },
     {
+      id: 0,
+      title: "Groomies",
+      date: "Nov 2023",
+      description:
+        "A team of five create an appointment setting, editing, and removing application for pet owners for a fictional grooming establishment called Groomies. Pets can be added, edited, and removed.",
+      image:
+        "",
+      github: "https://github.com/jennifermdevine/Groomies",
+      webapp: "https://groomies-v1.netlify.app/",
+    },
+    {
       id: 2,
       title: "ex.reviews",
       date: "Feb 2023 - ongoing",
@@ -198,8 +198,17 @@ export const Bio = {
         "Developed an unbiased and all inclusive review website for exes.",
       image:
         "",
-      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-      category: "web app",
+      github: "",
+      webapp: "",
+    },
+    {
+      id: 3,
+      title: "relax, it's catnip.",
+      date: "Feb 2023 - ongoing",
+      description:
+        "Created an e-commerce website for crocheted catnip toys.",
+      image:
+        "",
       github: "",
       webapp: "",
     },
