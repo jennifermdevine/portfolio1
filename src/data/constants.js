@@ -2,14 +2,13 @@ export const Bio = {
     name: "Jennifer Devine",
     roles: [
       "Junior Front-End Developer",
-      "Junior UI/UX Developer",
+      "Junior UI/UX Designer",
       "Junior Software Developer",
     ],
     description:
-      "Dynamic and growth-oriented Software Developer with hands-on experience in HTML, CSS, Sass, JavaScript, and React, fueled by over 370 committed hours of education from UNLV's Software Development bootcamp. Demonstrated ability to swiftly adapt and learn new technologies, coupled with a humble and collaborative mindset, and very eager to contribute to the field and help others grow to their full potential.",
+      "Dynamic and growth-oriented Software Developer with hands-on experience in HTML, CSS, Sass, JavaScript, and React, fueled by nearly 400 committed hours of education from UNLV's Software Development bootcamp. Demonstrated ability to swiftly adapt and learn new technologies, coupled with a humble and collaborative mindset, and very eager to contribute to the field and help others grow to their full potential.",
     github: "https://github.com/jennifermdevine",
-    resume:
-      "https://docs.google.com/document/d/1Durm1QlwtLUN89_7w4RBBUojpukFHg-CEWComJf2M-s/",
+    resume: "http://tinyurl.com/ynfx2vm3",
     linkedin: "https://www.linkedin.com/in/jennifermichelledevine/",
     insta: "https://www.instagram.com/__jenniferdevine/",
   };
