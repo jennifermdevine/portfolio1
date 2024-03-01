@@ -135,7 +135,6 @@ export const Bio = {
         "CSS",
         "JavaScript",
       ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
     },
   ];
   
@@ -211,4 +210,15 @@ export const Bio = {
       github: "",
       webapp: "",
     },
+    {
+      id: 4,
+      title: "The Hallway Closet",
+      date: "March 2023 - ongoing",
+      description:
+        "Fashioned a website based around an idea to make a resource for the underserved in our community to obtain things that aren't covered by EBT or food pantries.",
+      image:
+        "",
+      github: "",
+      webbapp: "",
+    }
   ];

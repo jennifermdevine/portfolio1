@@ -130,7 +130,7 @@ export const TextLoop = styled.div`
 `;
 
 export const Span = styled.span`
-    color: ${({ theme }) => theme.primary};
+    color: white;
     cursor: pointer;
 `;
 
@@ -156,6 +156,7 @@ export const ResumeButtonContainer = styled.div`
     width: 80%;
     height: 100%;
     padding: 0 6px;
+
     @media screen and (max-width: 640px) {
         display: none;
     }
@@ -182,11 +183,6 @@ export const ResumeButton = styled.div`
     :hover {
         transform: scale(1.05);
         filter: brightness(1);
-    }
-
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
     }
 `;
 
