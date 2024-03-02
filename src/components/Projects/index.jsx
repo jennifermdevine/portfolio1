@@ -5,8 +5,9 @@ import { projects } from '../../data/constants';
 
 const Projects = () => {
     const [toggle, setToggle] = useState("all");
+
     return (
-        <Container>
+        <Container id="projects">
             <Wrapper>
                 <Title>Projects</Title>
                 <Desc>These are my most recent projects to date.</Desc>
@@ -37,11 +38,17 @@ const Projects = () => {
                     )}
                 </ToggleGroup>
 
-                <CardContainer>
+                <CardContainer >
                     {toggle === "all" &&
                     projects.map((project) => <ProjectCard project={project} />)}
                     {projects.filter((item) => 
-                    item.category == toggle) .map((project) => 
+                    item.category == toggle)
+                    .map((project) => 
+                    (<ProjectCard project={project} />
+                    ))}
+                    {projects.filter((item) =>
+                    item.category === toggle)
+                    .map((project) => 
                     (<ProjectCard project={project} />
                     ))}
                 </CardContainer>

@@ -166,7 +166,7 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 1,
+      id: 0,
       title: "Lake Elwood",
       date: "Jun - Jul 2023",
       description:
@@ -178,7 +178,7 @@ export const Bio = {
       category: "milestone projects",
     },
     {
-      id: 0,
+      id: 2,
       title: "Groomies",
       date: "Nov 2023",
       description:
@@ -188,18 +188,76 @@ export const Bio = {
       github: "https://github.com/jennifermdevine/Groomies",
       webapp: "https://groomies-v1.netlify.app/",
       category: "milestone projects",
+      member: [
+        {
+          name: "Jennifer Devine",
+          img: "https://avatars.githubusercontent.com/u/119917010?v=4",
+          linkedin: "https://www.linkedin.com/in/jennifermichelledevine/",
+          github: "https://github.com/jennifermdevine",
+        },
+        {
+          name: "Rudy Rodriguez",
+          img: "https://avatars.githubusercontent.com/u/124630447?v=4",
+          linkedin: "https://www.linkedin.com/in/rudy-rodriguez-9b3328266/",
+          github: "https://github.com/Jam19th",
+        },
+        {
+          name: "Francisco Menendez",
+          img: "https://avatars.githubusercontent.com/u/120076256?v=4",
+          linkedin: "https://www.linkedin.com/in/francisco-menendez-464aa5261/",
+          github: "https://github.com/frankieSM",
+        },
+        {
+          name: "Zoren Villareal",
+          img: "https://avatars.githubusercontent.com/u/71196506?v=4",
+          linkedin: "https://www.linkedin.com/in/zorenvillareal/",
+          github: "https://github.com/ZorenVillareal",
+        },
+        {
+          name: "Roberto Rodriguez",
+          img: "https://avatars.githubusercontent.com/u/125606680?v=4",
+          linkedin: "https://www.linkedin.com/in/roberto-rodriguez-89a042272/",
+          github: "https://github.com/Rodriguezrob2023",
+        },
+      ],
     },
     {
-      id: 2,
+      id: 1,
       title: "In or Out?",
       date: "Aug - Sep 2023",
       description:
-        "A MERN stack application that takes in recipes or restaurants and stores them within a database to refer to in a pinch when trying to decide what to eat. Will you be dining in and making a recipe at home or will you be dining out at a favorite restaurant?",
+        "A MERN stack application created by a team of four that takes in recipes or restaurants and stores them within a database to refer to in a pinch when trying to decide what to eat. Will you be dining in and making a recipe at home or will you be dining out at a favorite restaurant?",
       image:
         "",
       github: "https://github.com/jennifermdevine/Milestone2",
       webapp: "https://in-or-out.onrender.com/",
       category: "milestone projects",
+      member: [
+        {
+          name: "Jennifer Devine",
+          img: "https://avatars.githubusercontent.com/u/119917010?v=4",
+          linkedin: "https://www.linkedin.com/in/jennifermichelledevine/",
+          github: "https://github.com/jennifermdevine",
+        },
+        {
+          name: "Mathew Puig",
+          img: "https://avatars.githubusercontent.com/u/122147441?v=4",
+          linkedin: "https://www.linkedin.com/in/mathew-puig/",
+          github: "https://github.com/techG0LD",
+        },
+        {
+          name: "Zoren Villareal",
+          img: "https://avatars.githubusercontent.com/u/71196506?v=4",
+          linkedin: "https://www.linkedin.com/in/zorenvillareal/",
+          github: "https://github.com/ZorenVillareal",
+        },
+        {
+          name: "Elva Plazola",
+          img: "https://avatars.githubusercontent.com/u/125343492?v=4",
+          linkedin: "",
+          github: "https://github.com/elvaplazola",
+        }
+      ],
     },
     // {
     //   id: 3,
