@@ -24,7 +24,7 @@ export const Card = styled.div`
         width: 300px;
     }
 
-    border: 1px solid #306ee8;
+    border: 1px solid #CFE3FC;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24p;
 `;
 

@@ -127,13 +127,12 @@ export const Bio = {
       date: "November 2006 - Oct 2022",
       desc: "Managed training for new technicians and volunteers, handled receptionist duties such as cash transactions and scheduling, and emphasized client education and relationship building. Created and maintained a compliance handbook to ensure staff adherence to procedures and anticipated the needs of doctors, patients, and clients to maintain high standards of care and satisfaction. Additionally, served as system administrator for the CRM Cornerstone software system, leveraging technological knowledge to train and support team members effectively.",
       skills: [
-        "ReactJS",
-        "Redux",
-        "NodeJs",
-        "Material UI",
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "Training & Education",
+        "Client Relations",
+        "Compliance Management",
+        "Proactive Care", 
+        "Technological Proficiency",
+        "System Administration"
       ],
     },
   ];
