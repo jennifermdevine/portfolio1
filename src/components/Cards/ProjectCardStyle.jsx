@@ -39,12 +39,6 @@ export const Details = styled.div`
     padding: 0px 2px;
 `;
 
-export const Members = styled.div`
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-`
-
 export const Title = styled.div `
     font-size: 20px;
     font-weight: 600;
@@ -70,9 +64,10 @@ export const Date = styled.div`
 
 export const Description = styled.div`
     font-weight: 400;
+    font-size: 15px;
     color: ${({ theme }) => theme.text_primary};
-    overflow: hidden;
-    text-overflow: ellipsis;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     display: -webkit-box;
@@ -84,8 +79,8 @@ export const Avatar = styled.img`
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    margin-left: -10px;
-    margin-top: 60px;
+    margin-left: -20px;
+    margin-top: 70px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border: 3px solid ${({ theme }) => theme.card};

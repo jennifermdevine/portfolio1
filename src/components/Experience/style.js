@@ -7,10 +7,15 @@ export const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
+    padding: 40px 0px 80px 0px;
+
+    @media (max-width: 960px) {
+        padding: 0px;
+    }
 `;
 
 export const Wrapper = styled.div`
-    max-width: 1100px;
+    max-width: 1350px;
     position: relative;
     display: flex;
     flex-direction: column;

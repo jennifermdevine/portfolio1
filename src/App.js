@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
-import { darkTheme } from "./utils/Themes";
+import { Theme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import Hero from "./components/HeroSection";
 import Skills from "./components/Skills";
@@ -34,7 +34,7 @@ const Wrapper = styled.div`
 
 function App() {
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={Theme}>
       <Router>
         <Navbar />
           <Body>
@@ -42,9 +42,11 @@ function App() {
             <Wrapper>
               <Skills/>
               <Experience/>
-              </Wrapper>
-              <Projects />
-              {/* <Education/> */}
+            </Wrapper>
+            <Projects />
+            <Wrapper>
+              <Education />  
+            </Wrapper>
           </Body>
       </Router>
     </ThemeProvider>

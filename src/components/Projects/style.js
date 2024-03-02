@@ -7,10 +7,12 @@ export const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 98%, 0 100%);
 `;
 
 export const Wrapper = styled.div`
-    max-width: 1100px;
+    max-width: 1350px;
+    padding: 10px 0px 100px 0px;
     position: relative;
     display: flex;
     flex-direction: column;

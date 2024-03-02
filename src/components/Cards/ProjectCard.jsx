@@ -1,7 +1,7 @@
 import React from 'react';
-import { Card, Image, Details, Title, Date, Description, Members, Avatar } from './ProjectCardStyle';
+import { Card, Image, Details, Title, Date, Description, Avatar } from './ProjectCardStyle';
 
-const ProjectCard = (project) => {
+const ProjectCard = ({project}) => {
     return (
         <Card>
             <Image src={project.image} />
@@ -10,10 +10,6 @@ const ProjectCard = (project) => {
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
-            <Members>{project.member?.map((member) => (
-                <Avatar src={member.img}></Avatar>
-            ))}
-            </Members>
         </Card>
     )
 };
