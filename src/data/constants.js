@@ -168,13 +168,14 @@ export const Bio = {
     {
       id: 1,
       title: "Lake Elwood",
-      date: "Jun 2023 - Jul 2023",
+      date: "Jun - Jul 2023",
       description:
-        "A vanila Javascript fishing game that ",
+        "A solo project created with vanilla JS. Lake Elwood is a fishing game that offers four fishing attempts to reach ten points to win.",
       image:
         "",
       github: "https://github.com/jennifermdevine/Milestone-1",
       webapp: "",
+      category: "milestone projects",
     },
     {
       id: 0,
@@ -186,20 +187,34 @@ export const Bio = {
         "",
       github: "https://github.com/jennifermdevine/Groomies",
       webapp: "https://groomies-v1.netlify.app/",
+      category: "milestone projects",
     },
     {
       id: 2,
-      title: "ex.reviews",
-      date: "Feb 2023 - ongoing",
+      title: "In or Out?",
+      date: "Aug - Sep 2023",
       description:
-        "Developed an unbiased and all inclusive review website for exes.",
+        "A MERN stack application that takes in recipes or restaurants and stores them within a database to refer to in a pinch when trying to decide what to eat. Will you be dining in and making a recipe at home or will you be dining out at a favorite restaurant?",
       image:
         "",
-      github: "",
-      webapp: "",
+      github: "https://github.com/jennifermdevine/Milestone2",
+      webapp: "https://in-or-out.onrender.com/",
+      category: "milestone projects",
     },
+    // {
+    //   id: 3,
+    //   title: "ex.reviews",
+    //   date: "Feb 2023 - ongoing",
+    //   description:
+    //     "Developed an unbiased and all inclusive review website for exes.",
+    //   image:
+    //     "",
+    //   github: "",
+    //   webapp: "",
+    //   category: "mock websites"
+    // },
     {
-      id: 3,
+      id: 4,
       title: "relax, it's catnip.",
       date: "Feb 2023 - ongoing",
       description:
@@ -208,9 +223,10 @@ export const Bio = {
         "",
       github: "",
       webapp: "",
+      category: "mock websites"
     },
     {
-      id: 4,
+      id: 5,
       title: "The Hallway Closet",
       date: "March 2023 - ongoing",
       description:
@@ -218,6 +234,19 @@ export const Bio = {
       image:
         "",
       github: "",
-      webbapp: "",
+      webapp: "",
+      category: "mock websites"
+    },
+    {
+      id: 6,
+      title: "AWOKEN",
+      date: "March 2023 - ongoing",
+      description:
+        "A website created for a World of Warcraft guild.",
+      image:
+        "",
+      github: "",
+      webapp: "",
+      category: "websites"
     }
   ];

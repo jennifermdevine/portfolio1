@@ -45,10 +45,10 @@ export const Desc = styled.div`
 
 export const ToggleGroup = styled.div`
     display: flex;
-    border: 1.5px solid ${({ theme }) => theme.primary};
+    border: 2.3px solid ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.text_primary};
     font-size: 16px;
-    border-radius: 12px;
+    border-radius: 9px;
     font-weight: 500;
     margin: 22px 0;
 
@@ -61,8 +61,8 @@ export const ToggleButton = styled.div`
     padding: 8px 18px;
     cursor: pointer;
     background-color: ${({ theme }) => theme.primary};
+    border-radius: 4px;
     text-shadow: 1px px 0px black;
-    border-radius: 6px;
 
     ${({ active }) =>
     active &&
@@ -83,3 +83,11 @@ export const Divider = styled.div`
     width: 1.5px;
     background-color: #CFE3FC;
 `
+
+export const CardContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 28px;
+`;
