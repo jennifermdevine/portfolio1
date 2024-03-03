@@ -88,7 +88,8 @@ export const Description = styled.div`
     font-size: 15px;
     width: 100%;
     font-weight: 500px;
-    color: ${({ theme }) => theme.text_primary +99};
+    color: #CFE3FC;
+    text-shadow: 0px 0px 2px navy;
     margin-bottom: 10px;
 
     @media (max-width: 768px){
