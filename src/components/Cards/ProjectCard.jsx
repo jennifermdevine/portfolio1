@@ -8,9 +8,19 @@ const ProjectCard = ({project}) => {
         <Card>
             <Image src={project.image} />
             <Details>
-                <Title><a href={project.github} target="_blank"><FaGithub /></a>  •  {project.title}</Title>
+                <Title>{project.clickable === 'yes' ? (
+                <a href={project.github} target="_blank"><FaGithub /></a>
+                  ) : (
+                    <span></span>
+                  )}
+                  •  {project.title}</Title>
                 <Date>{project.date}</Date>
-                <Description>{project.description} • <a href={project.webapp} target="_blank"><CgWebsite /></a> </Description>
+                <Description>{project.description} • {project.clickable === 'yes' ? (
+                <a href={project.github} target="_blank"><CgWebsite /></a>
+                  ) : (
+                    <span></span>
+                  )}
+                </Description>
                 
             </Details>
         </Card>

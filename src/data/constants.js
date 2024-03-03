@@ -176,6 +176,7 @@ export const Bio = {
       github: "https://github.com/jennifermdevine/Milestone-1",
       webapp: "https://jennifermdevine.github.io/Milestone-1/",
       category: "milestone projects",
+      clickable: "yes"
     },
     {
       id: 1,
@@ -188,6 +189,7 @@ export const Bio = {
       github: "https://github.com/jennifermdevine/Milestone2",
       webapp: "https://in-or-out.onrender.com/",
       category: "milestone projects",
+      clickable: "yes",
       member: [
         {
           name: "Jennifer Devine",
@@ -227,6 +229,7 @@ export const Bio = {
       github: "https://github.com/jennifermdevine/Groomies",
       webapp: "https://groomies-v1.netlify.app/",
       category: "milestone projects",
+      clickable: "yes",
       member: [
         {
           name: "Jennifer Devine",
@@ -270,43 +273,50 @@ export const Bio = {
     //     "",
     //   github: "",
     //   webapp: "",
-    //   category: "mock websites"
+    //   category: "mock websites",
+    //   clickable: "no"
     // },
     {
       id: 4,
       title: "relax, it's catnip.",
-      date: "Feb 2023 - ongoing",
+      // started Feb 2024
+      date: "in production",
       description:
         "Created an e-commerce website for crocheted catnip toys.",
       image:
         "https://i.ibb.co/5LLk8jX/relax-doodlehead.png",
       github: "https://github.com/jennifermdevine/relax-itscatnip",
       webapp: "",
-      category: "mock websites"
+      category: "mock websites",
+      clickable: "no"
     },
     {
       id: 5,
       title: "The Hallway Closet",
-      date: "March 2023 - ongoing",
+      // started March 2024
+      date: "in production",
       description:
         "Fashioned a website based around an idea to make a resource for the underserved in our community to obtain things that aren't covered by EBT or food pantries.",
       image:
         "https://i.ibb.co/y8tgcQw/hallway-closet.jpg",
       github: "https://github.com/jennifermdevine/the-hallway-closet",
       webapp: "",
-      category: "mock websites"
+      category: "mock websites",
+      clickable: "no"
     },
     {
       id: 6,
       title: "AWOKEN",
-      date: "March 2023 - ongoing",
+      // started March 2024
+      date: "in production",
       description:
         "A website created for a World of Warcraft guild.",
       image:
         "https://i.ibb.co/bHDQt0x/image.png",
       github: "https://github.com/jennifermdevine/awoken-guild",
       webapp: "",
-      category: "websites"
+      category: "websites",
+      clickable: "no"
     },
     {
       id: 7,
@@ -319,6 +329,7 @@ export const Bio = {
       github: "https://github.com/jennifermdevine/To-Do-List",
       webapp: "https://to-do-list-ei5m.onrender.com/",
       category: "apps",
+      clickable: "yes"
     },
     {
       id: 8,
@@ -331,6 +342,7 @@ export const Bio = {
       github: "https://github.com/jennifermdevine/tic-tac-toe",
       webapp: "https://tic-tac-toe-9h99.onrender.com/",
       category: "apps",
+      clickable: "yes"
     },
     {
       id: 9,
@@ -343,6 +355,7 @@ export const Bio = {
       github: "https://github.com/jennifermdevine/Calculator",
       webapp: "https://simple-calculator-868c.onrender.com/",
       category: "apps",
+      clickable: "yes"
     },
     {
       id: 10,
@@ -355,17 +368,20 @@ export const Bio = {
       github: "https://github.com/jennifermdevine/weather",
       webapp: "https://lightweight-weather-app.onrender.com/",
       category: "apps",
+      clickable: "yes"
     },
-    // {
-    //   id: 11,
-    //   title: "Myths VS Facts",
-    //   date: "Jan 2024",
-    //   description:
-    //     "A five-question quiz app.",
-    //   image:
-    //     "",
-    //   github: "",
-    //   webapp: "",
-    //   category: "apps",
-    // }
+    {
+      id: 11,
+      title: "Quiz App",
+      // Jan 24
+      date: "in production",
+      description:
+        "A five-question quiz app.",
+      image:
+        "",
+      github: "",
+      webapp: "",
+      category: "apps",
+      clickable: "no"
+    }
   ];
