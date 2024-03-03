@@ -172,11 +172,50 @@ export const Bio = {
       description:
         "A solo project created with vanilla JS. Lake Elwood is a fishing game that offers four fishing attempts to reach ten points to win.",
       image:
-        "",
+        "https://i.ibb.co/R7bKqfM/Lake-Elwood.jpg",
       github: "https://github.com/jennifermdevine/Milestone-1",
       webapp: "https://jennifermdevine.github.io/Milestone-1/",
       category: "milestone projects",
     },
+    {
+      id: 1,
+      title: "In or Out?",
+      date: "Aug - Sep 2023",
+      description:
+        "A MERN stack application created by a team of four that takes in recipes or restaurants and stores them within a database to refer to in a pinch when trying to decide what to eat. Will you be dining in and making a recipe at home or will you be dining out at a favorite restaurant?",
+      image:
+        "https://i.ibb.co/VNBhSxB/in-or-out.png",
+      github: "https://github.com/jennifermdevine/Milestone2",
+      webapp: "https://in-or-out.onrender.com/",
+      category: "milestone projects",
+      member: [
+        {
+          name: "Jennifer Devine",
+          img: "https://avatars.githubusercontent.com/u/119917010?v=4",
+          linkedin: "https://www.linkedin.com/in/jennifermichelledevine/",
+          github: "https://github.com/jennifermdevine",
+        },
+        {
+          name: "Mathew Puig",
+          img: "https://avatars.githubusercontent.com/u/122147441?v=4",
+          linkedin: "https://www.linkedin.com/in/mathew-puig/",
+          github: "https://github.com/techG0LD",
+        },
+        {
+          name: "Zoren Villareal",
+          img: "https://avatars.githubusercontent.com/u/71196506?v=4",
+          linkedin: "https://www.linkedin.com/in/zorenvillareal/",
+          github: "https://github.com/ZorenVillareal",
+        },
+        {
+          name: "Elva Plazola",
+          img: "https://avatars.githubusercontent.com/u/125343492?v=4",
+          linkedin: "",
+          github: "https://github.com/elvaplazola",
+        }
+      ],
+    },
+      
     {
       id: 2,
       title: "Groomies",
@@ -184,7 +223,7 @@ export const Bio = {
       description:
         "A team of five create an appointment setting, editing, and removing application for pet owners for a fictional grooming establishment called Groomies. Pets can be added, edited, and removed.",
       image:
-        "",
+        "https://i.ibb.co/KrnjjNF/groomieswebpage.png",
       github: "https://github.com/jennifermdevine/Groomies",
       webapp: "https://groomies-v1.netlify.app/",
       category: "milestone projects",
@@ -221,44 +260,6 @@ export const Bio = {
         },
       ],
     },
-    {
-      id: 1,
-      title: "In or Out?",
-      date: "Aug - Sep 2023",
-      description:
-        "A MERN stack application created by a team of four that takes in recipes or restaurants and stores them within a database to refer to in a pinch when trying to decide what to eat. Will you be dining in and making a recipe at home or will you be dining out at a favorite restaurant?",
-      image:
-        "",
-      github: "https://github.com/jennifermdevine/Milestone2",
-      webapp: "https://in-or-out.onrender.com/",
-      category: "milestone projects",
-      member: [
-        {
-          name: "Jennifer Devine",
-          img: "https://avatars.githubusercontent.com/u/119917010?v=4",
-          linkedin: "https://www.linkedin.com/in/jennifermichelledevine/",
-          github: "https://github.com/jennifermdevine",
-        },
-        {
-          name: "Mathew Puig",
-          img: "https://avatars.githubusercontent.com/u/122147441?v=4",
-          linkedin: "https://www.linkedin.com/in/mathew-puig/",
-          github: "https://github.com/techG0LD",
-        },
-        {
-          name: "Zoren Villareal",
-          img: "https://avatars.githubusercontent.com/u/71196506?v=4",
-          linkedin: "https://www.linkedin.com/in/zorenvillareal/",
-          github: "https://github.com/ZorenVillareal",
-        },
-        {
-          name: "Elva Plazola",
-          img: "https://avatars.githubusercontent.com/u/125343492?v=4",
-          linkedin: "",
-          github: "https://github.com/elvaplazola",
-        }
-      ],
-    },
     // {
     //   id: 3,
     //   title: "ex.reviews",
@@ -278,8 +279,8 @@ export const Bio = {
       description:
         "Created an e-commerce website for crocheted catnip toys.",
       image:
-        "",
-      github: "",
+        "https://i.ibb.co/5LLk8jX/relax-doodlehead.png",
+      github: "https://github.com/jennifermdevine/relax-itscatnip",
       webapp: "",
       category: "mock websites"
     },
@@ -290,8 +291,8 @@ export const Bio = {
       description:
         "Fashioned a website based around an idea to make a resource for the underserved in our community to obtain things that aren't covered by EBT or food pantries.",
       image:
-        "",
-      github: "",
+        "https://i.ibb.co/y8tgcQw/hallway-closet.jpg",
+      github: "https://github.com/jennifermdevine/the-hallway-closet",
       webapp: "",
       category: "mock websites"
     },
@@ -302,8 +303,8 @@ export const Bio = {
       description:
         "A website created for a World of Warcraft guild.",
       image:
-        "",
-      github: "",
+        "https://i.ibb.co/bHDQt0x/image.png",
+      github: "https://github.com/jennifermdevine/awoken-guild",
       webapp: "",
       category: "websites"
     }
