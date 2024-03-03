@@ -16,7 +16,7 @@ const ProjectCard = ({project}) => {
                   •  {project.title}</Title>
                 <Date>{project.date}</Date>
                 <Description>{project.description} • {project.clickable === 'yes' ? (
-                <a href={project.github} target="_blank"><CgWebsite /></a>
+                <a href={project.webapp} target="_blank"><CgWebsite /></a>
                   ) : (
                     <span></span>
                   )}
