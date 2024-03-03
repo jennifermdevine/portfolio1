@@ -307,5 +307,65 @@ export const Bio = {
       github: "https://github.com/jennifermdevine/awoken-guild",
       webapp: "",
       category: "websites"
-    }
+    },
+    {
+      id: 7,
+      title: "To-Do List",
+      date: "Jan 2024",
+      description:
+        "A small, functional to-do list.",
+      image:
+        "https://i.ibb.co/3d06R5J/image-2024-03-02-184019181.png",
+      github: "https://github.com/jennifermdevine/To-Do-List",
+      webapp: "https://to-do-list-ei5m.onrender.com/",
+      category: "apps",
+    },
+    {
+      id: 8,
+      title: "Tic-Tac-Toe",
+      date: "Jan 2024",
+      description:
+        "A working Tic-Tac-Toe game.",
+      image:
+        "https://i.ibb.co/XpLr66j/tictactoe.png",
+      github: "https://github.com/jennifermdevine/tic-tac-toe",
+      webapp: "https://tic-tac-toe-9h99.onrender.com/",
+      category: "apps",
+    },
+    {
+      id: 9,
+      title: "Calculator",
+      date: "Jan 2024",
+      description:
+        "A simple calculator.",
+      image:
+        "https://i.ibb.co/PFr7VBy/calculator.png",
+      github: "https://github.com/jennifermdevine/Calculator",
+      webapp: "https://simple-calculator-868c.onrender.com/",
+      category: "apps",
+    },
+    {
+      id: 10,
+      title: "Weather App",
+      date: "Jan 2024",
+      description:
+        "A lightweight weather app.",
+      image:
+        "https://i.ibb.co/jTmsvcg/image-2024-03-02-184542147.png",
+      github: "https://github.com/jennifermdevine/weather",
+      webapp: "https://lightweight-weather-app.onrender.com/",
+      category: "apps",
+    },
+    // {
+    //   id: 11,
+    //   title: "Myths VS Facts",
+    //   date: "Jan 2024",
+    //   description:
+    //     "A five-question quiz app.",
+    //   image:
+    //     "",
+    //   github: "",
+    //   webapp: "",
+    //   category: "apps",
+    // }
   ];
