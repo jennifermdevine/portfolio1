@@ -41,7 +41,7 @@ const Projects = () => {
                     {toggle === "apps" ? (
                     <ToggleButton active onClick={() => setToggle("apps")}>APPS</ToggleButton>
                     ) : (
-                        <ToggleButton active onClick={() => setToggle("apps")}>APPS</ToggleButton>
+                        <ToggleButton onClick={() => setToggle("apps")}>APPS</ToggleButton>
                     )}
                 </ToggleGroup>
 
