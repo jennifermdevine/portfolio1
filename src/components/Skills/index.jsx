@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Wrapper, Title, Desc, SkillsContainer, Skill, SkillTitle, SkillList, SkillItem, SkillImage  } from './style';
+import JumpToTop from "../JumpToTop";
 import { skills } from '../../data/constants';
 
 const Skills = () => {
@@ -26,6 +27,7 @@ const Skills = () => {
                         </Skill>
                     ))}
                 </SkillsContainer>
+                <JumpToTop />
             </Wrapper>
         </Container>
     )

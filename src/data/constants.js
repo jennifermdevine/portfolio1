@@ -174,7 +174,7 @@ export const Bio = {
       image:
         "",
       github: "https://github.com/jennifermdevine/Milestone-1",
-      webapp: "",
+      webapp: "https://jennifermdevine.github.io/Milestone-1/",
       category: "milestone projects",
     },
     {

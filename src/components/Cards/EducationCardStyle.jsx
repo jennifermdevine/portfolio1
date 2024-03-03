@@ -53,7 +53,7 @@ export const Body = styled.div`
 export const Name = styled.div`
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: #97A5C2;
     text-shadow: 1px 0px 1px navy;
 
     @media (max-width: 768px){
@@ -75,7 +75,7 @@ export const Date = styled.div`
 export const Degree = styled.div`
     font-size: 14px;
     font-weight: 500;
-    color: white;
+    color: #CFE3FC;
     text-shadow: 1px 0px 1px navy;
 
     @media (max-width: 768px){
@@ -87,7 +87,7 @@ export const Description = styled.div`
     font-size: 15px;
     width: 100%;
     font-weight: 500px;
-    color: ${({ theme }) => theme.text_primary +99};
+    color: #CFE3FC;
     margin-bottom: 10px;
 
     @media (max-width: 768px){

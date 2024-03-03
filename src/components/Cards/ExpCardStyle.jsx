@@ -54,7 +54,7 @@ export const Body = styled.div`
 export const Role = styled.div`
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: #97A5C2;
     text-shadow: 1px 0px 1px navy;
 
     @media (max-width: 768px){
@@ -76,7 +76,7 @@ export const Duration = styled.div`
 export const Company = styled.div`
     font-size: 14px;
     font-weight: 500;
-    color: white;
+    color: #CFE3FC;
     text-shadow: 1px 0px 1px navy;
 
     @media (max-width: 768px){

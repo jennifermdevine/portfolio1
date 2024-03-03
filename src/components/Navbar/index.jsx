@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <Nav>
             <NavContainer>
-                <NavLogo to="/">
+                <NavLogo>
                     <a
                         style={{
                             display: "flex",
@@ -19,7 +19,10 @@ const Navbar = () => {
                             color: "white",
                             marginBottom: "20",
                             cursor: "pointer",
-                        }}>
+                        }}
+                        href="https://www.linkedin.com/in/jennifermichelledevine/"
+                        target="_blank"
+                        >
                         <img src={LogoImg} alt="the initials 'jd' in script" height="75"/>
                     </a>
                         </NavLogo>

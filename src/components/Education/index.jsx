@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Wrapper, Title, Desc, TimelineSection } from './style';
+import JumpToTop from "../JumpToTop";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -25,12 +26,13 @@ const Education = () => {
                                 </TimelineContent>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" sx={{color:'white'}} />
-                                        {index !== education.length - 1 && (<TimelineConnector style={{ background: "#FFF"}}/>)}
+                                        {index !== education.length && (<TimelineConnector style={{ background: "#FFF"}}/>)}
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}
                     </Timeline>
                 </TimelineSection>
+                <JumpToTop />
             </Wrapper>
         </Container>
     )

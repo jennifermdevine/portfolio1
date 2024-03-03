@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Wrapper, Title, Desc, ToggleGroup, ToggleButton, Divider, CardContainer } from "./style";
 import ProjectCard from "../Cards/ProjectCard";
 import { projects } from '../../data/constants';
+import JumpToTop from "../JumpToTop";
 
 const Projects = () => {
     const [toggle, setToggle] = useState("all");
@@ -41,17 +42,13 @@ const Projects = () => {
                 <CardContainer >
                     {toggle === "all" &&
                     projects.map((project) => <ProjectCard project={project} />)}
-                    {projects.filter((item) => 
-                    item.category == toggle)
-                    .map((project) => 
-                    (<ProjectCard project={project} />
-                    ))}
                     {projects.filter((item) =>
                     item.category === toggle)
                     .map((project) => 
                     (<ProjectCard project={project} />
                     ))}
                 </CardContainer>
+                <JumpToTop/>
             </Wrapper>
         </Container>
     )

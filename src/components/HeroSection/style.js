@@ -174,9 +174,9 @@ export const ResumeButton = styled.div`
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: hsla(240, 50%, 20%, 1);
-    background: linear-gradient(225deg, hsla(240, 50%, 20%, 1) 0%, hsla(240, 60%, 67%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(240, 50%, 20%, 1) 0%, hsla(240, 60%, 67%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(240, 50%, 20%, 1) 0%, hsla(240, 60%, 67%, 1) 100%);
+    background: linear-gradient(225deg, hsla(240, 50%, 20%, 1) 0%,  rgba(207, 227, 252, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(240, 50%, 20%, 1) 0%,  rgba(207, 227, 252, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(240, 50%, 20%, 1) 0%,  rgba(207, 227, 252, 1) 100%);
     box-shadow: 15px 15px 40px #8AA7DE,
     -10px -10px 40px #8AA7DE;
     cursor: pointer;

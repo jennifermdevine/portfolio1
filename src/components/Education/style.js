@@ -12,6 +12,8 @@ export const Container = styled.div`
     @media (max-width: 960px) {
         padding: 0px;
     }
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 
 export const Wrapper = styled.div`

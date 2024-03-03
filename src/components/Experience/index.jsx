@@ -7,6 +7,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector  from "@mui/lab/TimelineConnector";
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import JumpToTop from "../JumpToTop";
 import { experiences } from "../../data/constants";
 
 
@@ -22,7 +23,7 @@ const Experience = () => {
                             <TimelineItem>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" sx={{color:'white'}} />
-                                        {index !== experiences.length - 1 && (<TimelineConnector />)}
+                                        {index !== experiences.length && (<TimelineConnector />)}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <ExperienceCard experience={experience}/>
@@ -31,6 +32,7 @@ const Experience = () => {
                         ))}
                     </Timeline>
                 </TimelineSection>
+                <JumpToTop />
             </Wrapper>
         </Container>
     )
