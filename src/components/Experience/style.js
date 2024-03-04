@@ -44,7 +44,7 @@ export const Desc = styled.div`
     color: white;
     
     @media (max-width: 768px) {
-        font-size: 16px;
+        font-size: 15px;
     }
 `;
 
