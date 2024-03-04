@@ -373,13 +373,12 @@ export const Bio = {
     {
       id: 11,
       title: "Quiz App",
-      // Jan 24
-      date: "in production",
+      date: "Jan 2024",
       description:
         "A five-question quiz app.",
       image:
-        "",
-      github: "",
+        "https://i.ibb.co/vH4WQK3/image.png",
+      github: "https://github.com/jennifermdevine/quiz-app",
       webapp: "",
       category: "apps",
       clickable: "no"
