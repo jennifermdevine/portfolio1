@@ -305,6 +305,20 @@ export const Bio = {
       clickable: "no"
     },
     {
+      id: 12,
+      title: "Generic Salon & Spa",
+      // started March 2024
+      date: "in production",
+      description:
+        "A mockup of a salon and spa business.",
+      image:
+        "https://i.ibb.co/y8tgcQw/hallway-closet.jpg",
+      github: "https://github.com/jennifermdevine/the-hallway-closet",
+      webapp: "",
+      category: "mock websites",
+      clickable: "no"
+    },
+    {
       id: 6,
       title: "AWOKEN",
       // started March 2024
@@ -315,7 +329,7 @@ export const Bio = {
         "https://i.ibb.co/bHDQt0x/image.png",
       github: "https://github.com/jennifermdevine/awoken-guild",
       webapp: "",
-      category: "websites",
+      category: "mock websites",
       clickable: "no"
     },
     {
