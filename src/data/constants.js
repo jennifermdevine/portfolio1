@@ -285,7 +285,7 @@ export const Bio = {
         "Created an e-commerce website for crocheted catnip toys.",
       image:
         "https://i.ibb.co/5LLk8jX/relax-doodlehead.png",
-      github: "https://github.com/jennifermdevine/relax-itscatnip",
+      github: "https://github.com/jennifermdevine/relaxitscatnip",
       webapp: "",
       category: "mock websites",
       clickable: "no"
@@ -296,7 +296,7 @@ export const Bio = {
       // started March 2024
       date: "in production",
       description:
-        "Fashioned a website based around an idea to make a resource for the underserved in our community to obtain things that aren't covered by EBT or food pantries.",
+        "Fashioned a website based around an idea to make a resource for the people in need in our community to obtain things that aren't covered by EBT or typically found in food pantries.",
       image:
         "https://i.ibb.co/y8tgcQw/hallway-closet.jpg",
       github: "https://github.com/jennifermdevine/the-hallway-closet",
@@ -328,6 +328,20 @@ export const Bio = {
       image:
         "https://i.ibb.co/bHDQt0x/image.png",
       github: "https://github.com/jennifermdevine/awoken-guild",
+      webapp: "",
+      category: "mock websites",
+      clickable: "no"
+    },
+    {
+      id: 13,
+      title: "The Phoebe Project",
+      // started March 2024
+      date: "in production",
+      description:
+        "Friendly interactions and bonding enrichment meant for senior citizens living in group facilities.",
+      image:
+        "https://i.ibb.co/MgzBNmM/owl.jpg",
+      github: "https://github.com/jennifermdevine/the-phoebe-project",
       webapp: "",
       category: "mock websites",
       clickable: "no"
@@ -384,17 +398,17 @@ export const Bio = {
       category: "apps",
       clickable: "yes"
     },
-    {
-      id: 11,
-      title: "Quiz App",
-      date: "Jan 2024",
-      description:
-        "A five-question quiz app.",
-      image:
-        "https://i.ibb.co/vH4WQK3/image.png",
-      github: "https://github.com/jennifermdevine/quiz-app",
-      webapp: "",
-      category: "apps",
-      clickable: "no"
-    }
+    // {
+    //   id: 11,
+    //   title: "Quiz App",
+    //   date: "Jan 2024",
+    //   description:
+    //     "A five-question quiz app.",
+    //   image:
+    //     "https://i.ibb.co/vH4WQK3/image.png",
+    //   github: "https://github.com/jennifermdevine/quiz-app",
+    //   webapp: "",
+    //   category: "apps",
+    //   clickable: "yes"
+    // }
   ];
